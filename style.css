@@ -20,6 +20,12 @@ H2 {
   margin-top: 25px;
 }
 
+/* Sub-subtítulo (usado nos artigos) */
+H3 {
+  color: #192129;
+  margin-top: 20px;
+}
+
 /* Parágrafos */
 P {
   color: #444;
@@ -95,6 +101,13 @@ NAV A:hover {
 .cnpj {
   font-size: 12px;
   color: #767676;   /* era #888 */
+}
+
+/* Links em títulos e parágrafos, seguindo o azul da identidade visual */
+H2 A,
+P A {
+  color: #0069e4;
+  text-decoration: underline;
 }
 
 /* Área de destaque do WhatsApp */
