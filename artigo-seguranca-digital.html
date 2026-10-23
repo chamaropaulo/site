@@ -1,0 +1,309 @@
+<!DOCTYPE html> <!-- Informa ao navegador que o documento é HTML5, evitando o modo quirks. -->
+<HTML LANG="pt-BR"> <!-- Define o idioma da página como português do Brasil. -->
+<HEAD>
+<!-- Ela faz o navegador exibir corretamente os acentos e símbolos das palavras no site. -->
+<META CHARSET="UTF-8">
+
+<!-- Folha de estilo externa: o CSS fica em um arquivo separado (style.css) na mesma pasta. -->
+<LINK REL="stylesheet" HREF="style.css">
+
+<!-- Ajusta a página à largura da tela do dispositivo, melhorando a exibição em celulares. -->
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<!-- Descreve o conteúdo da página para mecanismos de busca exibirem nos resultados. -->
+<META NAME="description" CONTENT="Senhas fortes, autenticação em dois fatores e cuidados contra golpes: aprenda os princípios essenciais de segurança digital para o dia a dia.">
+<TITLE>Segurança digital: cuidados essenciais no dia a dia - Técnico Paulo Fagoto</TITLE>
+
+<!-- Canonical URL: indica a versão oficial da página para evitar conteúdo duplicado. -->
+<LINK REL="canonical" HREF="https://www.paulofagoto.com.br/artigo-seguranca-digital.html">
+
+<!-- Open Graph: controla como o site aparece quando compartilhado no WhatsApp, Facebook, LinkedIn etc. -->
+<META PROPERTY="og:type" CONTENT="article">
+<META PROPERTY="og:title" CONTENT="Segurança digital: cuidados essenciais no dia a dia">
+<META PROPERTY="og:description" CONTENT="Senhas fortes, autenticação em dois fatores e cuidados contra golpes: aprenda os princípios essenciais de segurança digital para o dia a dia.">
+<META PROPERTY="og:image" CONTENT="https://www.paulofagoto.com.br/og-image.png">
+<META PROPERTY="og:image:alt" CONTENT="Logo do Técnico Paulo Fagoto - Informática em Valinhos/SP">
+<META PROPERTY="og:url" CONTENT="https://www.paulofagoto.com.br/artigo-seguranca-digital.html">
+<META PROPERTY="og:locale" CONTENT="pt_BR">
+
+<!-- Twitter Card: mesmo efeito para compartilhamentos no X (Twitter). -->
+<META NAME="twitter:card" CONTENT="summary_large_image">
+<META NAME="twitter:title" CONTENT="Segurança digital: cuidados essenciais no dia a dia">
+<META NAME="twitter:description" CONTENT="Senhas fortes, autenticação em dois fatores e cuidados contra golpes: aprenda os princípios essenciais de segurança digital para o dia a dia.">
+<META NAME="twitter:image" CONTENT="https://www.paulofagoto.com.br/og-image.png">
+<META NAME="twitter:image:alt" CONTENT="Logo do Técnico Paulo Fagoto - Informática em Valinhos/SP">
+
+<!-- Favicon: ícone exibido na aba do navegador e nos favoritos. -->
+<LINK REL="icon" HREF="favicon.ico" TYPE="image/x-icon">
+
+<!-- Dados estruturados (JSON-LD) para artigos: informa ao Google que é um artigo de blog. -->
+<SCRIPT TYPE="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Segurança digital: cuidados essenciais no dia a dia",
+  "description": "Senhas fortes, autenticação em dois fatores e cuidados contra golpes: aprenda os princípios essenciais de segurança digital para o dia a dia.",
+  "image": "https://www.paulofagoto.com.br/og-image.png",
+  "author": {
+    "@type": "Person",
+    "name": "Paulo Fagoto",
+    "url": "https://www.paulofagoto.com.br/sobre.html"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Técnico Paulo Fagoto",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.paulofagoto.com.br/banner.png"
+    }
+  },
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.paulofagoto.com.br/artigo-seguranca-digital.html"
+  }
+}
+</SCRIPT>
+
+</HEAD>
+<BODY>
+<!-- Banner no topo da página, ocupando toda a largura do conteúdo. -->
+<IMG SRC="banner.png" ALT="Técnico Paulo Fagoto - Informática em Valinhos/SP" CLASS="banner" WIDTH="1400" HEIGHT="256" FETCHPRIORITY="high">
+
+<!-- Menu de navegação principal, com links para todas as páginas do site. -->
+<NAV>
+<UL>
+<LI><A HREF="index.html">Home</A></LI>
+<LI><A HREF="servicos.html">Serviços</A></LI>
+<LI><A HREF="produtos.html">Produtos</A></LI>
+<LI><A HREF="sobre.html">Sobre</A></LI>
+<LI><A HREF="artigos.html">Artigos</A></LI>
+<LI><A HREF="downloads.html">Downloads</A></LI>
+<LI><A HREF="contato.html">Contato</A></LI>
+</UL>
+</NAV>
+
+<!-- Conteúdo principal da página, envolvido em MAIN para acessibilidade. -->
+<MAIN>
+<!-- Título principal do artigo. -->
+<H1>Segurança digital: cuidados essenciais no dia a dia</H1>
+
+<!-- Introdução do artigo. -->
+<P>Você já recebeu uma mensagem suspeita no WhatsApp pedindo para clicar em um link? Já viu um e-mail "do banco" pedindo para atualizar seus dados? Ou ouviu falar de alguém que teve a conta invadida? Essas situações são cada vez mais comuns — e a <STRONG>segurança digital deixou de ser coisa de especialista</STRONG> para se tornar um cuidado básico de todo mundo que usa internet.</P>
+
+<P>A boa notícia é que <STRONG>a maioria dos golpes é evitável</STRONG> com atitudes simples. Neste artigo, vou explicar os principais riscos do dia a dia e os cuidados essenciais que protegem seus dados, suas contas e seu dinheiro.</P>
+
+<!-- Seção por que importa. -->
+<H2>Por que segurança digital importa</H2>
+
+<P>Hoje, quase tudo na nossa vida passa pela internet: banco, compras, conversas, documentos, fotos. Quando alguém acessa indevidamente uma conta ou um dispositivo, o prejuízo pode ser financeiro, emocional e até legal.</P>
+
+<P>Os golpes mais comuns não exigem conhecimento técnico avançado do criminoso. Muitas vezes, ele explora <STRONG>descuido, pressa ou confiança</STRONG> da vítima — e não falhas de sistema. Por isso, <STRONG>prevenir depende principalmente de você</STRONG>.</P>
+
+<!-- Seção senhas. -->
+<H2>Senhas fortes: a primeira linha de defesa</H2>
+
+<P>A senha é a chave da sua vida digital. Uma senha fraca é como deixar a porta de casa encostada.</P>
+
+<H3>O que faz uma senha ser forte</H3>
+<UL>
+<LI><STRONG>Longa:</STRONG> pelo menos 12 caracteres (idealmente 16 ou mais).</LI>
+<LI><STRONG>Variada:</STRONG> mistura de letras maiúsculas e minúsculas, números e símbolos.</LI>
+<LI><STRONG>Única:</STRONG> não reutilize a mesma senha em vários sites.</LI>
+<LI><STRONG>Não óbvia:</STRONG> evite nome, data de nascimento, nome de filho, "123456" ou "senha".</LI>
+</UL>
+
+<H3>O que NUNCA usar como senha</H3>
+<UL>
+<LI>Seu nome ou apelido.</LI>
+<LI>Datas (nascimento, casamento, ano).</LI>
+<LI>Sequências ("123456", "abcdef", "qwerty").</LI>
+<LI>Palavras comuns ("senha", "admin", "amor").</LI>
+<LI>A mesma senha para tudo.</LI>
+</UL>
+
+<H3>Como gerenciar muitas senhas</H3>
+<P>Lembrar de 30 senhas diferentes é impossível para qualquer pessoa. Duas soluções:</P>
+<UL>
+<LI><STRONG>Gerenciadores de senha</STRONG> (Bitwarden, 1Password, LastPass, ou até o gerenciador do próprio navegador): armazenam as senhas de forma criptografada e preenchem automaticamente. Você só precisa lembrar de uma senha mestre (que deve ser bem forte).</LI>
+<LI><STRONG>Frases-senha:</STRONG> em vez de "Senh@123", use algo como "CaféComPãoDeManhã2026!". É longa, fácil de lembrar e difícil de adivinhar.</LI>
+</UL>
+
+<!-- Seção 2FA. -->
+<H2>Autenticação em dois fatores (2FA): indispensável</H2>
+
+<P>Mesmo com uma senha forte, se ela vazar (por vazamento de site, phishing, etc.), sua conta fica vulnerável. A <STRONG>autenticação em dois fatores</STRONG> adiciona uma segunda camada de proteção: além da senha, você precisa de um <STRONG>código temporário</STRONG> para entrar.</P>
+
+<H3>Como funciona</H3>
+<P>Depois de digitar a senha, o serviço pede um código que:</P>
+<UL>
+<LI>É enviado por SMS (menos seguro, mas melhor que nada).</LI>
+<LI>É gerado por um aplicativo autenticador (Google Authenticator, Microsoft Authenticator, Authy) — <STRONG>recomendado</STRONG>.</LI>
+<LI>É enviado por e-mail (menos prático, mas serve).</LI>
+</UL>
+
+<H3>Onde ativar (prioridade)</H3>
+<P>Ative o 2FA <STRONG>primeiro</STRONG> nos serviços mais críticos:</P>
+<UL>
+<LI><STRONG>E-mail principal</STRONG> (Gmail, Outlook) — se alguém invadir seu e-mail, pode redefinir a senha de quase tudo.</LI>
+<LI><STRONG>Banco e serviços financeiros</STRONG>.</LI>
+<LI><STRONG>WhatsApp</STRONG> (verificação em duas etapas nas configurações).</LI>
+<LI><STRONG>Redes sociais</STRONG> (Instagram, Facebook).</LI>
+</UL>
+<P>Leva menos de 5 minutos por serviço. O tempo investido vale ouro.</P>
+
+<!-- Seção phishing. -->
+<H2>Phishing: o golpe mais comum (e mais fácil de cair)</H2>
+
+<P><STRONG>Phishing</STRONG> é quando alguém se passa por uma instituição confiável (banco, loja, governo, até um amigo) para roubar seus dados. Geralmente chega por:</P>
+<UL>
+<LI><STRONG>E-mail</STRONG> falso ("Seu banco precisa atualizar seus dados").</LI>
+<LI><STRONG>SMS</STRONG> ("Seu pacote foi retido, pague a taxa").</LI>
+<LI><STRONG>WhatsApp</STRONG> ("Oi, troquei de número, pode me fazer um Pix?").</LI>
+<LI><STRONG>Redes sociais</STRONG> ("Clique aqui para ganhar um prêmio").</LI>
+</UL>
+
+<H3>Como identificar um phishing</H3>
+<UL>
+<LI><STRONG>Urgência exagerada:</STRONG> "Aja agora ou sua conta será bloqueada".</LI>
+<LI><STRONG>Erros de português</STRONG> ou formatação estranha.</LI>
+<LI><STRONG>Links suspeitos:</STRONG> passe o mouse (sem clicar) para ver o endereço real. Se não for o site oficial, desconfie.</LI>
+<LI><STRONG>Remetente estranho:</STRONG> e-mails com domínios esquisitos (ex.: banco@seguranca-banco-xyz.com).</LI>
+<LI><STRONG>Pedido de dados:</STRONG> nenhum banco sério pede senha, código ou dados por e-mail, SMS ou WhatsApp.</LI>
+</UL>
+
+<H3>O que fazer</H3>
+<UL>
+<LI><STRONG>Não clique</STRONG> em links suspeitos.</LI>
+<LI><STRONG>Não baixe anexos</STRONG> de remetentes desconhecidos.</LI>
+<LI><STRONG>Desconfie de tudo que pede urgência</STRONG>.</LI>
+<LI><STRONG>Se em dúvida, ligue</STRONG> para o número oficial da instituição (não o número que está na mensagem) e confirme.</LI>
+</UL>
+
+<!-- Seção WhatsApp. -->
+<H2>Golpes comuns no WhatsApp</H2>
+
+<P>O WhatsApp virou o principal canal de comunicação no Brasil — e também um dos mais visados por golpistas.</P>
+
+<H3>Golpes mais frequentes</H3>
+<UL>
+<LI><STRONG>Falso parente:</STRONG> alguém se passa por filho, sobrinho ou amigo pedindo dinheiro emprestado ("Mudei de número, pode me fazer um Pix?").</LI>
+<LI><STRONG>Falsa central de atendimento:</STRONG> finge ser do banco, pede para você "confirmar" dados ou instalar um aplicativo.</LI>
+<LI><STRONG>Falso sorteio/prêmio:</STRONG> pede para clicar em link e preencher dados.</LI>
+<LI><STRONG>Código de verificação:</STRONG> alguém pede o código que chegou por SMS "para confirmar sua identidade" — na verdade, é para invadir sua conta.</LI>
+</UL>
+
+<H3>Como se proteger</H3>
+<UL>
+<LI><STRONG>Ative a verificação em duas etapas</STRONG> no WhatsApp (Configurações → Conta → Verificação em duas etapas).</LI>
+<LI><STRONG>Nunca compartilhe o código de verificação</STRONG> com ninguém — nem se disserem ser do WhatsApp.</LI>
+<LI><STRONG>Confirme a identidade</STRONG> por ligação de voz (o número antigo) quando alguém pedir dinheiro.</LI>
+<LI><STRONG>Desconfie de "novo número"</STRONG> com pedido financeiro.</LI>
+</UL>
+
+<!-- Seção atualizações. -->
+<H2>Atualizações: por que não adiar</H2>
+
+<P>Atualizações do sistema operacional, do navegador e dos aplicativos não são só para adicionar recursos: elas <STRONG>corrigem falhas de segurança</STRONG>. Um sistema desatualizado é uma porta aberta para ameaças conhecidas.</P>
+
+<H3>O que atualizar (e com que frequência)</H3>
+<UL>
+<LI><STRONG>Windows:</STRONG> ativar atualizações automáticas.</LI>
+<LI><STRONG>Navegador (Chrome, Edge, Firefox):</STRONG> atualiza sozinho, mas confira em Configurações → Sobre.</LI>
+<LI><STRONG>Aplicativos</STRONG> (principalmente banco, e-mail, redes sociais): mantenha sempre atualizados.</LI>
+<LI><STRONG>Antivírus/Windows Defender:</STRONG> mantenha ativo e atualizado.</LI>
+</UL>
+
+<!-- Seção Wi-Fi público. -->
+<H2>Redes Wi-Fi públicas: cuidado redobrado</H2>
+
+<P>Wi-Fi gratuito em shopping, aeroporto, café e hotel é conveniente — mas <STRONG>inseguro</STRONG>. Em uma rede pública, outra pessoa com conhecimento técnico pode interceptar o que você acessa.</P>
+
+<H3>O que evitar em Wi-Fi público</H3>
+<UL>
+<LI><STRONG>Acessar banco</STRONG> ou fazer transações financeiras.</LI>
+<LI><STRONG>Digitar senhas</STRONG> de serviços importantes.</LI>
+<LI><STRONG>Acessar e-mails</STRONG> com informações sensíveis.</LI>
+</UL>
+
+<H3>Se precisar usar</H3>
+<UL>
+<LI>Prefira <STRONG>dados móveis (4G/5G)</STRONG> para qualquer coisa sensível.</LI>
+<LI>Se for inevitável, use uma <STRONG>VPN</STRONG> (rede virtual privada) — criptografa sua conexão.</LI>
+<LI>Evite redes sem senha ou com senha óbvia ("12345678").</LI>
+</UL>
+
+<!-- Seção backup. -->
+<H2>Backup: o seguro que você faz por você</H2>
+
+<P>Já escrevi um artigo completo sobre isso (link no final), mas vale reforçar: <STRONG>se você não tem backup, seus arquivos estão em risco</STRONG>. Um ataque de <STRONG>ransomware</STRONG> (programa que criptografa seus arquivos e pede resgate) pode ser devastador sem uma cópia de segurança.</P>
+
+<P><STRONG>Cuidado essencial:</STRONG> mantenha uma cópia dos arquivos importantes <STRONG>em um HD externo ou na nuvem</STRONG>, desconectada da máquina principal. Se um vírus atacar o computador, a cópia externa fica intacta.</P>
+
+<!-- Seção downloads piratas. -->
+<H2>Cuidados com downloads e programas piratas</H2>
+
+<P>Programas baixados de sites duvidosos, "crackeados" ou "ativadores" são uma das principais portas de entrada para vírus e malwares. Muitas vezes, o arquivo baixado instala <STRONG>programas espiões</STRONG> (que roubam senhas) ou <STRONG>adware</STRONG> (que enche o computador de propaganda).</P>
+
+<H3>O que fazer</H3>
+<UL>
+<LI>Baixe programas apenas dos <STRONG>sites oficiais</STRONG> dos fabricantes.</LI>
+<LI>Evite "versões grátis" de programas pagos em sites desconhecidos.</LI>
+<LI>Use o Windows Defender ativo para bloquear ameaças conhecidas.</LI>
+<LI>Se o antivírus alertou, <STRONG>não ignore</STRONG> — mesmo que o programa "pareça funcionar".</LI>
+</UL>
+
+<!-- Seção resumo prático. -->
+<H2>Resumo prático: o que fazer hoje</H2>
+
+<P>Se você quer aplicar segurança digital agora, comece por estas ações (em ordem de prioridade):</P>
+
+<UL>
+<LI><STRONG>Ative a verificação em duas etapas</STRONG> no e-mail principal, no WhatsApp e no banco.</LI>
+<LI><STRONG>Troque senhas fracas</STRONG> por senhas longas e únicas (considere um gerenciador de senhas).</LI>
+<LI><STRONG>Atualize o Windows e os aplicativos</STRONG>.</LI>
+<LI><STRONG>Ative atualizações automáticas</STRONG> no sistema e no navegador.</LI>
+<LI><STRONG>Faça backup</STRONG> dos arquivos importantes em nuvem ou HD externo.</LI>
+<LI><STRONG>Desconfie de mensagens com urgência</STRONG> pedindo dados ou dinheiro.</LI>
+<LI><STRONG>Evite acessar banco em Wi-Fi público</STRONG>.</LI>
+</UL>
+
+<P>Nenhuma dessas ações exige conhecimento técnico. São hábitos que, somados, reduzem drasticamente o risco de golpes.</P>
+
+<!-- Bloco de destaque com o botão de WhatsApp, separando visualmente a chamada para ação. -->
+<DIV CLASS="area-whatsapp">
+<P><A CLASS="botao-whatsapp" HREF="https://wa.me/5519971540808?text=Ol%C3%A1%20Paulo!%20Li%20o%20artigo%20sobre%20seguran%C3%A7a%20digital%20e%20gostaria%20de%20ajuda%20para%20configurar%20as%20prote%C3%A7%C3%B5es%20no%20meu%20dispositivo."><STRONG>Falar com o técnico no WhatsApp</STRONG></A></P>
+</DIV>
+
+<!-- Conclusão do artigo. -->
+<H2>Conclusão</H2>
+
+<P>Segurança digital não é sobre medo ou paranoia — é sobre <STRONG>hábitos simples</STRONG> que protegem o que importa: seu dinheiro, seus dados, suas contas, sua privacidade. Os golpes evoluem, mas os princípios permanecem: <STRONG>senha forte, verificação em dois fatores, desconfiança saudável e atualizações em dia</STRONG>.</P>
+
+<P>Se você tem dificuldade para configurar essas proteções no seu computador ou celular, posso te ajudar. Faço atendimento em Valinhos/SP e região, e também suporte remoto. O orçamento é sem compromisso.</P>
+
+<!-- Link para o artigo de backup, como referência interna. -->
+<P><STRONG>Leia também:</STRONG> <A HREF="artigo-backup-arquivos.html">Como fazer backup dos seus arquivos com segurança</A></P>
+
+</MAIN>
+
+<!-- Rodapé com navegação secundária, dados de contato, CNPJ e copyright. -->
+<FOOTER>
+<NAV>
+<UL>
+<LI><A HREF="index.html">Home</A></LI>
+<LI><A HREF="servicos.html">Serviços</A></LI>
+<LI><A HREF="produtos.html">Produtos</A></LI>
+<LI><A HREF="sobre.html">Sobre</A></LI>
+<LI><A HREF="artigos.html">Artigos</A></LI>
+<LI><A HREF="downloads.html">Downloads</A></LI>
+<LI><A HREF="contato.html">Contato</A></LI>
+</UL>
+</NAV>
+
+<P>Rua Campos Salles, Vila Faustina II, Valinhos - SP, CEP: 13272-350</P>
+<P CLASS="cnpj">CNPJ: 64.383.742/0001-26</P>
+<P CLASS="cnpj">&copy; 2026 Técnico Paulo Fagoto. Todos os direitos reservados.</P>
+</FOOTER>
+</BODY>
+</HTML>
