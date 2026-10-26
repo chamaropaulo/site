@@ -17,7 +17,7 @@
 
   <url>
     <loc>https://www.paulofagoto.com.br/contato.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -38,56 +38,56 @@
 
   <url>
     <loc>https://www.paulofagoto.com.br/artigos.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://www.paulofagoto.com.br/artigo-computador-lento.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://www.paulofagoto.com.br/artigo-backup-arquivos.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+
   <url>
-   <loc>https://www.paulofagoto.com.br/artigo-ssd-vale-a-pena.html</loc>
-   <lastmod>2026-10-23</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.7</priority>
+    <loc>https://www.paulofagoto.com.br/artigo-ssd-vale-a-pena.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <url>
-   <loc>https://www.paulofagoto.com.br/artigo-seguranca-digital.html</loc>
-   <lastmod>2026-10-23</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.7</priority>
-  </url>
-  
-  <url>
-   <loc>https://www.paulofagoto.com.br/artigo-quando-formatar.html</loc>
-   <lastmod>2026-10-23</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.7</priority>
+    <loc>https://www.paulofagoto.com.br/artigo-seguranca-digital.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <url>
-   <loc>https://www.paulofagoto.com.br/artigo-consertar-ou-trocar.html</loc>
-   <lastmod>2026-10-25</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.7</priority>
+    <loc>https://www.paulofagoto.com.br/artigo-quando-formatar.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.paulofagoto.com.br/artigo-consertar-ou-trocar.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://www.paulofagoto.com.br/downloads.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
